@@ -1,0 +1,66 @@
+{
+  "bpm": 126,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 60,
+  "audio" : "Fantasy Island.wav",
+  "audioTime" : 259000,
+  "presets" : [
+    {
+      "preset": "AdamFX Mashup 2 Martin - reflections on black tile + Raron N Flexi ",
+      "merge": 0.1,
+      "beats": 8
+    },
+    {
+      "preset": "Eo.S. + Phat - cubetrace - v2",
+      "merge": 2,
+      "beats": 8
+    },
+    {
+      "preset": "Geiss - Planet 1",
+      "merge": 0.1,
+      "beats": 16
+    },
+    {
+      "preset": "Eo.S. + Phat - cubetrace - v2",
+      "merge": 2,
+      "beats": 8
+    },
+    {
+      "preset": "martin - reflections on black tiles",
+      "merge": 0.5,
+      "beats": 16
+    },
+    {
+      "preset": "AdamFX Mashup 2 Martin - reflections on black tile + Raron N Flexi ",
+      "merge": 0.1,
+      "beats": 8
+    },
+    {
+      "preset": "Eo.S. + Phat - cubetrace - v2",
+      "merge": 2,
+      "beats": 8
+    },
+    {
+      "preset": "Geiss - Planet 1",
+      "merge": 0.1,
+      "beats": 16
+    },
+    {
+      "preset": "TonyMilkdrop - Magellan's Nebula [Flexi - you enter first + multiverse]",
+      "merge": 0.1,
+      "beats": 16
+    },
+    {
+      "preset": "yin - 315 - Ocean of Light (yo im peakin yo Eo.S.-Phat)",
+      "merge": 0.2,
+      "beats": 16
+    },
+    {
+      "preset": "AdamFX Mashup 2 Martin - reflections on black tile + Raron N Flexi ",
+      "merge": 1,
+      "beats": 16
+    }
+  ]
+}
