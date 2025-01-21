@@ -1,37 +1,29 @@
-# Butterchurn Video Creator
+# Staberinde Video Creator
 
 Create videos of Milkdrop presets using Butterchurn
 
-Used for making the videos for [MilkDrop Presets Bot](https://twitter.com/MilkDropPresets)
-
 ## Usage
 
-### Installation
+Create files like transcendence.json that contain the following:
 
-```bash
-# Clone this repository
-git clone https://github.com/jberg/butterchurn-video-creator
-# Go into the repository
-cd butterchurn-video-creator
-# Install dependencies
-yarn install
+```json
+{
+  "preset": "transcendence",
+  "duration": 10,
+  "fps": 30,
+  "output": "transcendence.mp4"
+}
 ```
 
-### Create a video
+Then run the script with the file as an argument:
 
 ```bash
-# Generate an audio analysis file
-yarn run generate-audio audio_file_path length_in_ms
-# Generate screenshots from preset and audio analysis
-yarn run generate-screenshots preset_file_path.json [audio_analysis_file] [length_in_frames]
-# Create a video from screenshots and audio
-yarn run create-video-from-screenshots audio_file_path
+npm run  generate-audio ./transcendence.json
+
+npm run generate-stab-screenshots ./transcendence.json
+
+npm run create-video-from-screenshots ./transcendence.json
 ```
 
-JSON formatted presets can be found in the [butterchurn-presets](https://github.com/jberg/butterchurn-presets) repository
+Your video will be in the tmp folder.
 
-[FFmpeg](https://github.com/FFmpeg/FFmpeg) is required for the final step, or you can stich the PNGs together using another method
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
