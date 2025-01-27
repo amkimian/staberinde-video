@@ -1,0 +1,66 @@
+{
+  "bpm": 100,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 10,
+  "audio" : "Noctyra.wav",
+  "audioTime" : 355000,
+  "presets" : [
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 138",
+      "merge": 0.1,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 303",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 305",
+      "merge": 0.3,
+      "beats": 16
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 380",
+      "merge": 0.3,
+      "beats": 16
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 428",
+      "merge": 2,
+      "beats": 16
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 434",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 455",
+      "merge": 0.2,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 138",
+      "merge": 0.3,
+      "beats": 16
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 303",
+      "merge": 0.4,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 305",
+      "merge": 0.4,
+      "beats": 16
+    },
+    {
+      "preset": "$$$ Royal - Mashup (376)",
+      "merge": 0.8,
+      "beats": 16
+    }
+  ]
+}

@@ -1,7 +1,9 @@
 const fs = require("fs");
 const path = require("path");
 const puppeteer = require("puppeteer");
-let fps = 60;
+const http = require("http");
+
+let fps = 10;
 const args = process.argv.slice(2);
 if (args.length < 1) {
   console.log(
@@ -52,9 +54,33 @@ for (let i = 0; i < controlFile.presets.length; i++) {
 
     controlFile.presets[i].frame = frame;
     let presetName = controlFile.presets[i].preset;
-    let presetFile = `${process.cwd()}/presets/${presetName}.json`;
-    let preset = JSON.parse(fs.readFileSync(presetFile));
-    controlFile.presets[i].preset_info = preset;
+
+    // Here we need to load this from http://localhost:8080/name
+    let url = `http://localhost:8080/${presetName}.json`;
+    http.get(url, (response) => {
+        let place = i;
+    	let chunks_of_data = [];
+
+    	response.on('data', (fragments) => {
+    		chunks_of_data.push(fragments);
+    	});
+
+    	response.on('end', () => {
+    		let response_body = Buffer.concat(chunks_of_data);
+            console.log("Retrieved preset");
+            //console.log("Preset is " + response_body.toString());
+            console.log("Writing it to preset " + place);
+    		// response body
+    		controlFile.presets[place].preset_info = JSON.parse(response_body.toString());
+    	});
+
+    	response.on('error', (error) => {
+    		console.log(error);
+    	});
+    });
+    //let presetFile = `${process.cwd()}/presets/${presetName}.json`;
+    //let preset = JSON.parse(fs.readFileSync(presetFile));
+    //controlFile.presets[i].preset_info = preset;
 
     console.log('Phase: ', i);
     console.log("Current preset: ", presetName);
@@ -137,6 +163,7 @@ console.log("Total frames: ", frameCount);
 
           // Add blend time to this
           window.loadPreset = (preset, blend) => {
+            console.log("Preset loading " + JSON.stringify(preset));
             visualizer.loadPreset(preset, blend);
           }
 
@@ -171,7 +198,8 @@ console.log("Total frames: ", frameCount);
   let whichPreset = 0;
 
   preset_reset = false;
-  await page.evaluate((preset, blend) => window.loadPreset(preset), controlFile.presets[current_preset].preset_info, controlFile.presets[current_preset].blend);
+  //console.log(controlFile.presets[current_preset].preset_info);
+ await page.evaluate((preset, blend) => window.loadPreset(preset), controlFile.presets[current_preset].preset_info, controlFile.presets[current_preset].blend);
 
   for (let i = startFrame; i < frameCount; i++) {
     // For every frame, get the analysis for this frame, and then render it using those render options.
