@@ -38,15 +38,23 @@ if (!fs.existsSync(dir)) {
     audioAnalysisData.push(audioData);
 
     const totalTime = audioData.time;
-     console.log("Audio loop", totalTime, expectedTime);
-
+    console.log("Audio loop", totalTime, expectedTime);
+    // Keep writing it out
+    if (totalTime*1000 > (controlFile.audioTime-1000))
+    {
+        fs.writeFileSync(
+        "./tmp/audioAnalysisData.json",
+        JSON.stringify(audioAnalysisData)
+        );
+    }
     expectedTime += frametime;
 
     const nextFrameTime = expectedTime - totalTime + frametime; // account for setTimeout innacuracy
-
+    const sleepTime = 1000 * (expectedTime - totalTime + frametime);
+    console.log("Sleep time", sleepTime);
     audioLoopTimeout = setTimeout(
       () => audioLoop(),
-      1000 * (expectedTime - totalTime + frametime)
+      sleepTime
     );
   }
 

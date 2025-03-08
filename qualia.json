@@ -1,0 +1,96 @@
+{
+  "bpm": 138,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 60,
+  "audio" : "Qualia.wav",
+  "audioTime" : 390000,
+  "presets" : [
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 271",
+      "merge": 0.1,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 60",
+      "merge": 1,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Royal - Mashup (194)",
+      "merge": 1,
+      "beats": 24
+    },
+    {
+      "preset": "271 nz+ m11",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "preset": "TonyMilkdrop - Leonardo Da Vinci's Balloon [Flexi - merry-go-round + techstyle]",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "preset": "shifter - fractal grinder",
+      "merge": 0.2,
+      "beats": 16
+    },
+    {
+      "preset": "suksma - water cooled red uranium vs dotes - freeenergynow.net",
+      "merge": 2,
+      "beats": 8
+    },
+    {
+      "preset": "_Eo.S. - glowsticks v2 02 - Geiss HPF",
+      "merge": 0.3,
+      "beats": 16
+    },
+    {
+      "preset": "271 nz+ m11",
+      "merge": 0.4,
+      "beats": 8
+    },
+    {
+      "preset": "TonyMilkdrop - Leonardo Da Vinci's Balloon [Flexi - merry-go-round + techstyle]",
+      "merge": 0.2,
+      "beats": 8
+    },
+    {
+      "preset": "_Eo.S. - glowsticks v2 02 - Geiss HPF",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Royal - Mashup (194)",
+      "merge": 0.3,
+      "beats": 16
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 60",
+      "merge": 1,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 271",
+      "merge": 0.1,
+      "beats": 8
+    },
+    {
+      "preset": "_Eo.S. - glowsticks v2 02 - Geiss HPF",
+      "merge": 0.3,
+      "beats": 16
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 271",
+      "merge": 0.1,
+      "beats": 16
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 271",
+      "merge": 0.1,
+      "beats": 8
+    }
+  ]
+}

@@ -131,63 +131,70 @@ console.log("Total frames: ", frameCount);
   const page = await browser.newPage();
   page.on("console", msg => console.log("PAGE LOG:", msg.text()));
   page.on("pageerror", err => console.log("PAGE ERROR: " + err.toString()));
+
+  async function c(e) {
+    console.log('loaded :');
+    await page.evaluate(() => {
+        console.log('On page :');
+        window.startUp();
+     });
+    return e;
+  }
+  //page.on("load", await(c));
   const html = `
   <!DOCTYPE html>
-    <head>
-      <script type="text/javascript" src="https://unpkg.com/lodash"></script>
-      <script type="text/javascript" src="https://unpkg.com/butterchurn"></script>
-      <script
-        src="https://code.jquery.com/jquery-3.1.1.min.js"
-        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-        crossorigin="anonymous"></script>
+      <head>
+        <script type="text/javascript" src="https://unpkg.com/lodash"></script>
+        <script type="text/javascript" src="https://unpkg.com/butterchurn"></script>
+        <script
+          src="https://code.jquery.com/jquery-3.1.1.min.js"
+          integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+          crossorigin="anonymous"></script>
 
-      <style>
-        #canvas:fullscreen {
-          width: 100%;
-          height: 100%;
-        }
-      </style>
-      <link rel="stylesheet" href="https://unpkg.com/normalize.css/normalize.css" />
 
-      <script>
-        $(function() {
-          const canvas = document.getElementById('canvas');
-          const visualizer = butterchurn.default.createVisualizer(null, canvas , {
-            width: ${width},
-            height: ${height},
-            meshWidth: 64,
-            meshHeight: 48,
-            pixelRatio: 1,
-            textureRatio: 2,
+        <link rel="stylesheet" href="https://unpkg.com/normalize.css/normalize.css" />
+
+        <script>
+          $(function() {
+            const canvas = document.getElementById('canvas');
+            const visualizer = butterchurn.default.createVisualizer(null, canvas , {
+              width: ${width},
+              height: ${height},
+              meshWidth: 64,
+              meshHeight: 48,
+              pixelRatio: 1,
+              textureRatio: 2,
+            });
+
+            // Add blend time to this
+            window.loadPreset = (preset, blend) => {
+              console.log("Preset loading " + JSON.stringify(preset));
+              visualizer.loadPreset(preset, blend);
+            }
+
+          /*
+            window.launchSongTitleAnim = (text) => {
+              visualizer.launchSongTitleAnim(text);
+            }
+          */
+            window.render = (opts) => {
+              visualizer.render(opts);
+            }
           });
-
-          // Add blend time to this
-          window.loadPreset = (preset, blend) => {
-            console.log("Preset loading " + JSON.stringify(preset));
-            visualizer.loadPreset(preset, blend);
-          }
-
-        /*
-          window.launchSongTitleAnim = (text) => {
-            visualizer.launchSongTitleAnim(text);
-          }
-        */
-          window.render = (opts) => {
-            visualizer.render(opts);
-          }
-        });
-      </script>
-    </head>
-    <body>
-      <div>
-        <canvas id='canvas' width='${width}' height='${height}'></canvas>
-      </div>
-    </body>
-  </html>`;
+        </script>
+      </head>
+      <body>
+        <div>
+          <canvas id='canvas' width='${width}' height='${height}'></canvas>
+        </div>
+      </body>
+    </html>`;
   await page.setViewport({ width, height, deviceScaleFactor: 1 });
   // Load the page above, wait for it to load.
   await page.goto(`data:text/html;charset=UTF-8,${html}`);
-
+  await page.$("#canvas");
+  console.log("Canvas loaded");
+  //await page.evaluate(() => { window.startUp(); } );
   // Load the preset
   //await page.evaluate(preset => window.loadPreset(preset), preset);
 
@@ -259,5 +266,5 @@ console.log("Total frames: ", frameCount);
     );
   }
 
-  await browser.close();
+  //await browser.close();
 })();

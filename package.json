@@ -7,7 +7,8 @@
     "generate-screenshots": "node src/generateScreenshots.js",
     "generate-stab-screenshots": "node src/generateStabScreenshots.js",
     "create-video-from-screenshots": "node src/createVideoFromScreenshots.js",
-    "generate-preview-screenshot": "node src/generateSingleScreenshot.js"
+    "generate-preview-screenshot": "node src/generateSingleScreenshot.js",
+    "test2" : "node src/test.js"
   },
   "main": "src/index.js",
   "repository": {
@@ -17,7 +18,7 @@
   "author": "Jordan Berg <jordannealberg@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "puppeteer": "^1.6.1",
+    "puppeteer": "^24.2.1",
     "uuid": "^3.3.2"
   },
   "devDependencies": {}

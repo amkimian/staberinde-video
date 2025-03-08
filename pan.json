@@ -1,0 +1,105 @@
+{
+  "bpm": 128,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 60,
+  "audio" : "The March of Pan.wav",
+  "audioTime" : 296000,
+  "presets" : [
+    {
+      "preset": "A Tribute to Martin - bombyx mori - Ft Flexi - AdamFX - StahlRegen - Krash - Rovastar -  Hd in Milk T",
+      "merge": 0,
+      "maybe" : 1,
+      "beats": 2
+    },
+    {
+      "preset": "Benjam - Tie-Dye Supernova (Twisted remix)",
+      "merge": 0,
+      "beats": 6
+    },
+    {
+      "preset": "AdamFX + Flexi + Geiss - Bipolar vs. reaction diffusion (Flexi + fiShbRaiN) - Swellin14",
+      "merge": 1,
+      "beats": 12
+    },
+    {
+      "preset": "AdamFX 2 Rovastar - Fractopia (Fantic Dancing Lights Mix)",
+      "merge": 1,
+      "beats": 24
+    },
+    {
+      "preset": "A Tribute to Martin - bombyx mori - Ft Flexi - AdamFX - StahlRegen - Krash - Rovastar -  Hd in Milk T",
+      "merge": 2,
+      "maybe" : 1,
+      "beats": 4
+    },
+    {
+      "preset": "BEST OF ADAMFX 2 Flexi + Geiss - Bipolar vs reaction diffusion + Another Flexi + Fishbrain  + Swellin12 - NoWavesNoShapes",
+      "merge": 2,
+      "beats": 16
+    },
+    {
+      "preset": "Benjam - Tie-Dye Supernova (Twisted remix)",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "preset": "BEST OF ADAMFX 2 Flexi + Geiss - Bipolar vs reaction diffusion + Another Flexi + Fishbrain  + Phat Zylot 10",
+      "merge": 0.2,
+      "beats": 2,
+      "maybe": 1
+    },
+    {
+      "preset": "Benjam - Tie-Dye Supernova (Twisted remix)",
+      "merge": 1,
+      "beats": 4
+    },
+    {
+      "preset": "BEST OF ADAMFX 2 Flexi + Geiss - Bipolar vs reaction diffusion + Another Flexi + Fishbrain  + Phat Zylot 10",
+      "merge": 0.2,
+      "beats": 2,
+      "maybe": 1
+    },
+    {
+      "preset": "Benjam - Tie-Dye Supernova (Twisted remix)",
+      "merge": 1,
+      "beats": 4
+    },
+    {
+      "preset": "AdamFX 2 Rovastar - Fractopia (Fantic Dancing Lights Mix)",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "preset": "adam eatit fx 2 martin - disco mix, lodus, geiss, ludicrous speed,flexi, aderrasi n hexcollie",
+      "merge": 1,
+      "beats": 4
+    },
+    {
+      "preset": "Benjam - Tie-Dye Supernova (Twisted remix)",
+      "merge": 1,
+      "beats": 8
+    },
+    {
+      "preset": "adam eatit fx 2 martin - disco mix, lodus, geiss, ludicrous speed,flexi, aderrasi n hexcollie",
+      "merge": 0.4,
+      "beats": 4
+    },
+    {
+      "preset": "Benjam - Tie-Dye Supernova (Twisted remix)",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "adam eatit fx 2 martin - disco mix, lodus, geiss, ludicrous speed,flexi, aderrasi n hexcollie",
+      "merge": 1,
+      "beats": 4
+    },
+    {
+      "preset": "Benjam - Tie-Dye Supernova (Twisted remix)",
+      "merge": 0.3,
+      "beats": 8
+    }
+  ]
+}

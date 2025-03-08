@@ -1,0 +1,58 @@
+{
+  "bpm": 128,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 60,
+  "audio" : "Solvana.wav",
+  "audioTime" : 263000,
+  "presets" : [
+    {
+      "preset": "martin - mandelbox explorer - high speed demo version",
+      "merge": 0,
+      "beats": 16
+    },
+    {
+      "preset": "martin - basal ganglion",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "martin - into the fireworks",
+      "merge": 0.3,
+      "beats": 24
+    },
+    {
+      "preset": "Rovastar - Trippy Sperm (Jelly)",
+      "merge": 1,
+      "maybe" : 1,
+      "beats": 16
+    },
+    {
+      "preset": "martin - basal ganglion",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "preset": "martin - into the fireworks",
+      "merge": 0.3,
+      "beats": 16
+    },
+    {
+      "preset": "martin - soma in pink",
+      "merge": 0.2,
+      "beats": 16,
+      "maybe": 1
+    },
+    {
+      "preset": "martin - starfield sectors",
+      "merge": 0.3,
+      "beats": 16
+    },
+    {
+      "preset": "martin - mandelbox explorer - high speed demo version",
+      "merge": 0.4,
+      "beats": 32
+    }
+  ]
+}

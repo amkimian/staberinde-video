@@ -1,0 +1,114 @@
+{
+  "bpm": 128,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 60,
+  "audio" : "A Dance of Druids.wav",
+  "audioTime" : 367000,
+  "presets" : [
+    {
+      "preset": "297TonyMilkdrop - Magellan's Nebula [Flexi - challenger]",
+      "merge": 0,
+      "maybe" : 1,
+      "beats": 8
+    },
+    {
+      "preset": "00-ShadowHarlequin-DreamingOfFluorescentThings",
+      "merge": 0.5,
+      "beats": 16,
+      "main" : "Bass Solo"
+    },
+    {
+      "preset": "$$$ Royal - Mashup (536)",
+      "merge": 1,
+      "beats": 8,
+      "main" : "Circles"
+    },
+    {
+      "preset": "02_MW_new03R1b",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "preset": "271 nz+ m18",
+      "merge": 2,
+      "maybe" : 1,
+      "beats": 8
+    },
+    {
+      "preset": "01_MW_new24a",
+      "merge": 2,
+      "beats": 8,
+      "main" : "Dancing Lights"
+    },
+    {
+      "preset": "02_MW_new03R1b",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "preset": "01_MW_new20",
+      "merge": 1,
+      "beats": 8,
+      "main" : "Other dancing lights"
+    },
+    {
+      "preset": "00-ShadowHarlequin-DreamingOfFluorescentThings",
+      "merge": 0.5,
+      "beats": 8,
+      "main" : "Bass Solo"
+    },
+    {
+      "preset": "01_MW_new54_U",
+      "merge": 0.2,
+      "beats": 8,
+      "maybe": 1
+    },
+    {
+      "preset": "27 Super Goats + Cope - Orbus Maximus (Breach the Egg Mix)",
+      "merge": 0.2,
+      "beats": 8,
+      "maybe": 1
+    },
+    {
+      "preset": "02_MW_new03R1b",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "preset": "27 Super Goats + Cope - Orbus Maximus (Breach the Egg Mix)",
+      "merge": 0.2,
+      "beats": 8,
+      "maybe": 1
+    },
+    {
+      "preset": "00-ShadowHarlequin-DreamingOfFluorescentThings",
+      "merge": 0.5,
+      "beats": 8,
+      "main" : "Bass Solo"
+    },
+    {
+      "preset": "02_MW_new03R1b",
+      "merge": 1,
+      "beats": 8
+    },
+    {
+      "preset": "27 Super Goats + Cope - Orbus Maximus (Breach the Egg Mix)",
+      "merge": 1,
+      "beats": 16,
+      "maybe": 1
+    },
+    {
+      "preset": "02_MW_new03R1b",
+      "merge": 1,
+      "beats": 8
+    },
+    {
+      "preset": "27 Super Goats + Cope - Orbus Maximus (Breach the Egg Mix)",
+      "merge": 1,
+      "beats": 16,
+      "maybe": 1
+    }
+  ]
+}

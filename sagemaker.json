@@ -1,0 +1,150 @@
+{
+  "bpm": 140,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 60,
+  "audio" : "SageMaker.wav",
+  "audioTime" : 258000,
+  "notes" : [
+    {
+      "bar" : 4,
+      "note" : "drums come in"
+    },
+    {
+      "bar" : 8,
+      "note" : "lower bass"
+    },
+    {
+      "bar" : 16,
+      "note" : "pad comes in"
+    },
+    {
+      "bar" : 24,
+      "note" : "arp in"
+    },
+    {
+      "bar" : 32,
+      "note" : "lead melody 1, big drop"
+    },
+    {
+      "bar" : 40,
+      "note" : "arp again"
+    },
+    {
+      "bar" : 48,
+      "note" : "alt drums, still arp"
+    },
+    {
+      "bar" : 64,
+      "note" : "back to lead"
+    },
+    {
+      "bar" : 72,
+      "note" : "quieter"
+    },
+    {
+      "bar" : 80,
+      "note" : "2nd lead"
+    },
+    {
+      "bar" : 88,
+      "note" : "back to arp"
+    },
+    {
+      "bar" : 104,
+      "note" : "back to bass"
+    },
+    {
+      "bar" : 112,
+      "note" : "pad in"
+    },
+    {
+      "bar" : 120,
+      "note" : "a bit of everything"
+    },
+    {
+      "bar" : 136,
+      "note" : "fade out"
+    }
+  ],
+  "presets" : [
+    {
+      "preset": "$$$ Royal - Mashup (10)",
+      "merge": 0,
+      "beats": 4
+    },
+    {
+      "preset": "271 nz+ m2",
+      "merge": 0.3,
+      "beats": 12
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 40",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Royal - Mashup (253)",
+      "merge": 1,
+      "maybe" : 1,
+      "beats": 8
+    },
+    {
+      "preset": "271 nz+ m2",
+      "merge": 1,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Royal - Mashup (253)",
+      "merge": 0.3,
+      "beats": 16
+    },
+    {
+      "preset": "271 nz+ m2",
+      "merge": 0.2,
+      "beats": 8,
+      "maybe": 1
+    },
+    {
+      "preset": "$$$ Royal - Mashup (10)",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "289TonyMilkdrop - Magellan's Nebula [Flexi - below]",
+      "merge": 0.4,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Royal - Mashup (253)",
+      "merge": 0.4,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 38",
+      "merge": 0.8,
+      "beats": 16
+    },
+    {
+      "preset": "$$$ Royal - Mashup (10)",
+      "merge": 0.4,
+      "beats": 8
+    },
+    {
+      "preset": "289TonyMilkdrop - Magellan's Nebula [Flexi - below]",
+      "merge": 0.4,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 40",
+      "merge": 0.4,
+      "beats": 16
+    },
+    {
+      "preset": "271 nz+ m2",
+      "merge": 0.4,
+      "beats": 8
+    }
+  ]
+}

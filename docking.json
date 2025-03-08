@@ -1,0 +1,81 @@
+{
+  "bpm": 128,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 60,
+  "audio" : "Raw Emotion Mix.wav",
+  "audioTime" : 287000,
+  "presets" : [
+    {
+      "preset": "_Mig_039",
+      "merge": 0,
+      "maybe" : 1,
+      "beats": 12
+    },
+    {
+      "preset": "_Geiss - Brain Zoom 3 (Color Emboss Mix)",
+      "merge": 0.1,
+      "beats": 16,
+      "main" : "Bass Solo"
+    },
+    {
+      "preset": "_Geiss - Artifact 03",
+      "merge": 1,
+      "beats": 16,
+      "main" : "Circles"
+    },
+    {
+      "preset": "Flexi + Martin - tunnel of supraschismatika",
+      "merge": 1,
+      "beats": 24
+    },
+    {
+      "preset": "Geiss - Reaction Diffusion (Relief Mix)",
+      "merge": 2,
+      "maybe" : 1,
+      "beats": 8
+    },
+    {
+      "preset": "_Mig_039",
+      "merge": 2,
+      "maybe" : 1,
+      "beats": 8
+    },
+    {
+      "preset": "Flexi + Rovastar - Fractopia [lovecraft]",
+      "merge": 2,
+      "beats": 16,
+      "main" : "Dancing Lights"
+    },
+    {
+      "preset": "flexi - color strike",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "preset": "flexi - hyperspaceflight (bn cn Jelly 4)",
+      "merge": 1,
+      "beats": 16,
+      "main" : "Other dancing lights"
+    },
+    {
+      "preset": "flexi - patternton, district of media, capitol of the united abstractions of fractopia",
+      "merge": 0.5,
+      "beats": 8,
+      "main" : "Bass Solo"
+    },
+    {
+      "preset": "Geiss - Brain Zoom 4",
+      "merge": 0.2,
+      "beats": 8,
+      "maybe": 1
+    },
+    {
+      "preset": "_Mig_039",
+      "merge": 0,
+      "beats": 8,
+      "maybe": 1
+    }
+  ]
+}

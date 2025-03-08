@@ -3,9 +3,9 @@
   "beats_in_bar": 4,
   "width" : 1920,
   "height" : 1080,
-  "fps" : 10,
-  "audio" : "Noctyra.wav",
-  "audioTime" : 355000,
+  "fps" : 60,
+  "audio" : "Noctyra Mix.wav",
+  "audioTime" : 362000,
   "presets" : [
     {
       "preset": "$$$ Preset Pack Collection Mashup 138",
@@ -33,7 +33,7 @@
       "beats": 16
     },
     {
-      "preset": "$$$ Preset Pack Collection Mashup 434",
+      "preset": "$$$ Preset Pack Collection Mashup 64",
       "merge": 0.3,
       "beats": 8
     },
@@ -60,7 +60,7 @@
     {
       "preset": "$$$ Royal - Mashup (376)",
       "merge": 0.8,
-      "beats": 16
+      "beats": 18
     }
   ]
 }
