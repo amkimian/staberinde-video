@@ -1,0 +1,65 @@
+{
+  "bpm": 128,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 60,
+  "audio" : "Victorious Return.wav",
+  "audioTime" : 180000,
+  "presets" : [
+    {
+      "name" : "opening",
+      "preset": "$$$ Mind Journey Collection Preset 017",
+      "merge": 0,
+      "beats": 16
+    },
+    {
+      "name" : "trombones",
+      "preset": "$$$ Preset Pack Collection Mashup 129",
+      "merge": 1,
+      "beats": 8
+    },
+    {
+      "name" : "verse",
+      "preset": "$$$ Preset Pack Collection Mashup 209",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "name" : "2nd opening",
+      "preset": "$$$ Mind Journey Collection Preset 017",
+      "merge": 1,
+      "beats": 8
+    },
+    {
+      "name" : "light motif",
+      "preset": "$$$ Preset Pack Collection Mashup 129",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "name" : "verse",
+      "preset": "$$$ Preset Pack Collection Mashup 209",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "name" : "end",
+      "preset": "bowel rebranding pr skinned to the teeth loadus veracruz",
+      "merge": 0.5,
+      "beats": 8
+    },
+
+    {
+      "name" : "verse",
+      "preset": "$$$ Preset Pack Collection Mashup 209",
+      "merge": 1,
+      "beats": 4
+    },{
+      "name" : "end",
+      "preset": "$$$ Preset Pack Collection Mashup 172",
+      "merge": 0.1,
+      "beats": 4
+    }
+  ]
+}

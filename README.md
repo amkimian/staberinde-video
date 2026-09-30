@@ -1,3 +1,11 @@
+# staberinde-video
+
+Node.js / Puppeteer video creation scripts using Butterchurn presets and audio analysis.
+
+Canonical location: `D:\Development\Music\staberinde-video`. Lifecycle is undecided. This project retains its own identity and history; it is not consolidated into StabMilker. See [STATUS.md](STATUS.md) for migration provenance and validation.
+
+---
+
 # Staberinde Video Creator
 
 Create videos of Milkdrop presets using Butterchurn

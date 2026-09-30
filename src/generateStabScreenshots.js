@@ -3,7 +3,7 @@ const path = require("path");
 const puppeteer = require("puppeteer");
 const http = require("http");
 
-let fps = 10;
+let fps = 60;
 const args = process.argv.slice(2);
 if (args.length < 1) {
   console.log(
@@ -145,7 +145,7 @@ console.log("Total frames: ", frameCount);
   <!DOCTYPE html>
       <head>
         <script type="text/javascript" src="https://unpkg.com/lodash"></script>
-        <script type="text/javascript" src="https://unpkg.com/butterchurn"></script>
+        <script type="text/javascript" src="http://localhost:8080/dist/butterchurn.min.js"></script>
         <script
           src="https://code.jquery.com/jquery-3.1.1.min.js"
           integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="

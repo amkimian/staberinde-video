@@ -98,6 +98,19 @@ if (!fs.existsSync(dir)) {
           analyserL.getByteTimeDomainData(timeByteArrayL);
           analyserR.getByteTimeDomainData(timeByteArrayR);
 
+            // Now update these values by increasing them a little bit
+            /*
+          let amountToAdd = 20;
+            for (let i = 0; i < timeByteArray.length; i++) {
+              timeByteArray[i] = Math.min(timeByteArray[i] + amountToAdd, 255);
+            }
+            for (let i = 0; i < timeByteArrayL.length; i++) {
+              timeByteArrayL[i] = Math.min(timeByteArrayL[i] + amountToAdd, 255);
+            }
+            for (let i = 0; i < timeByteArrayR.length; i++) {
+              timeByteArrayR[i] = Math.min(timeByteArrayR[i] + amountToAdd, 255);
+            }
+            */
           return {
             time: audioContext.currentTime - audioStart,
             timeByteArray: Array.from(timeByteArray),

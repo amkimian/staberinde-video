@@ -1,0 +1,61 @@
+{
+  "bpm": 120,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 60,
+  "audio" : "Dreamscape.mp3",
+  "audioTime" : 168000,
+  "presets" : [
+    {
+      "preset": "AdamFx 2 Geiss -Somewhat Distort Me 4",
+      "merge": 0.1,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 324",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 391",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 370",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 324",
+      "merge": 2,
+      "beats": 8
+    },
+    {
+      "preset": "306 nz+ dengtar",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "@ AdamFX FusedFX Preset Pack with Ft Amandio C - Goldline (fireworks) FusedFX include  Martin - Flexi - Geiss - StahR - Eos - Blast Of Tekk - Orb ",
+      "merge": 0.2,
+      "beats": 8
+    },
+    {
+      "preset": "Aceng Andi + Aderrasi - Airhandler (Principle of Sharing)",
+      "merge": 0.3,
+      "beats": 8
+    },
+    {
+      "preset": "Adam Fx 2 Zylot - Age of Science Fierceness BEAST2",
+      "merge": 0.4,
+      "beats": 8
+    },
+    {
+      "preset": "$$$ Preset Pack Collection Mashup 238",
+      "merge": 0.4,
+      "beats": 8
+    }
+  ]
+}

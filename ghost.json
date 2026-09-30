@@ -1,0 +1,71 @@
+{
+  "bpm": 120,
+  "beats_in_bar": 4,
+  "width" : 1920,
+  "height" : 1080,
+  "fps" : 60,
+  "audio" : "ghost.mp3",
+  "audioTime" : 407000,
+  "presets" : [
+    {
+      "name" : "opening",
+      "preset": "$$$ Preset Pack Collection Mashup 144",
+      "merge": 0,
+      "beats": 15
+    },
+    {
+      "name" : "opening",
+      "preset": "$$$ Mind Journey Collection Preset 012",
+      "merge": 1,
+      "beats": 15
+    },
+    {
+      "name" : "opening",
+      "preset": "$$$ Preset Pack Collection Mashup 08",
+      "merge": 1,
+      "beats": 15
+    },
+    {
+      "name" : "opening",
+      "preset": "$$$ Preset Pack Collection Mashup 144",
+      "merge": 1,
+      "beats": 15
+    },
+    {
+      "name" : "first connection",
+      "preset": "Aderrasi - Airhandler (Atmospheric Conjuration - Face Tornado)",
+      "merge": 0.3,
+      "beats": 48
+    },
+    {
+      "name" : "bridge",
+      "preset": "Adam Eatit Mashup FX 2 martin - disco mix + Lodus + Geiss + Ludicrous speed + Baked Ft another AdamFX Mashup 7_1",
+      "merge": 0.1,
+      "beats": 16
+    },
+    {
+      "name" : "bridge",
+      "preset": "A Tribute to Martin - bombyx mori - Ft Flexi - AdamFX - StahlRegen - Krash - Rovastar -  Hd in Milk T",
+      "merge": 0.1,
+      "beats": 16
+    },
+    {
+      "name" : "closing",
+      "preset": "Aderrasi + Geiss - Airhandler (Square Mix)",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "name" : "closing",
+      "preset": "Aderrasi - Airhandler (Atmospheric Conjuration - Face Tornado)",
+      "merge": 1,
+      "beats": 16
+    },
+    {
+      "name" : "closing",
+      "preset": "$$$ Preset Pack Collection Mashup 144",
+      "merge": 1,
+      "beats": 48
+    }
+  ]
+}
