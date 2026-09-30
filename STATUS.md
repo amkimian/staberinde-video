@@ -10,7 +10,7 @@ Node.js / Puppeteer video creation scripts using Butterchurn presets and audio a
 - Original source: `C:\Users\ukmoo\development\staberinde-video`.
 - Read-only comparison copy: `E:\Backup\Development\staberinde-video` (unchanged).
 - Original HEAD: `e3ca6e659b04725b7734bef80177d2057951a350`.
-- Existing remote is PUBLIC. Publishing is paused. A separate private repository or private-fork destination must be chosen; no permissions were changed and no push was made.
+- Existing remote is PUBLIC and owned by the verified user amkimian. Alan explicitly approved continuing to use this repository. Source/configuration and documentation backup is authorized; visibility remains unchanged and no private duplicate is created.
 - Kept separate from TheMilker, staberinde-video, stabvid, and StabMilker as applicable.
 
 ## Preservation
@@ -23,6 +23,8 @@ No nested repositories found. No symlinks/junctions found. Absolute-path matches
 
 ## Validation and limits
 
-Canonical compared files verified against the pre-migration SHA-256 inventory before documentation edits. Runtime behavior is unverified. No dependency upgrades or network builds were run. Existing licenses and upstream attribution remain intact. Java project requires JDK 21 and Maven; Node projects retain existing package manifests and lockfiles. Reinstall Node dependencies before attempting runtime use from D:.
+Canonical compared files verified against the pre-migration SHA-256 inventory before documentation edits. Runtime behavior is unverified. No dependency upgrades or network builds were run. Existing licenses and upstream attribution remain intact. This Node project retains its existing package manifest and lockfile. Reinstall Node dependencies before attempting runtime use from D:.
 
 Validation results: Node --check passed on src/generateAudioAnalysis.js and src/generateStabScreenshots.js.
+
+Public backup review: every changed file in the outgoing migration commit was inspected as text and screened for credential patterns. The scope is two JavaScript files, five JSON rendering configurations, README.md and STATUS.md. JSON configurations refer to local media filenames; the media itself, generated bundles, maps, dist output, dependencies and IDE files are excluded. Final asset comparison matched 485 files against the E: backup, excluding Git internals, dependencies, tmp and IDE metadata.
